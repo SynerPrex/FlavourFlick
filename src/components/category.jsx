@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const CategorySelector = () => {
   // State to hold the selected category
+  alert('Please Wait For Some Time');
   const [selectedCategory, setSelectedCategory] = useState('');
   // Function to handle category selection
   const handleCategorySelect = (category) => {
-    alert('Please Wait For Some Time');
     setSelectedCategory(category);
     // Save selected category to local storage
     localStorage.setItem('preferredCategory', category);
