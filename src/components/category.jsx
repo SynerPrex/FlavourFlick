@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const CategorySelector = () => {
   // State to hold the selected category
   const [selectedCategory, setSelectedCategory] = useState('');
-
+  alert('Please Wait For Some Time')
   // Function to handle category selection
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
