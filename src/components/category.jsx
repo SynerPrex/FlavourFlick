@@ -5,8 +5,8 @@ const CategorySelector = () => {
   const [selectedCategory, setSelectedCategory] = useState('');
   // Function to handle category selection
   const handleCategorySelect = (category) => {
+    alert('Please Wait For Some Time');
     setSelectedCategory(category);
-    alert('Please Wait For Some Time')
     // Save selected category to local storage
     localStorage.setItem('preferredCategory', category);
     location.reload()
