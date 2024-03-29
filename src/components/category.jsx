@@ -8,8 +8,7 @@ const CategorySelector = () => {
     setSelectedCategory(category);
     // Save selected category to local storage
     localStorage.setItem('preferredCategory', category);
-    location.reload()
-    alert('Please Wait For Some Time');
+    location.reload();
   };
 
   return (
